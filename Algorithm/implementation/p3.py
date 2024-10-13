@@ -1,24 +1,19 @@
 n, m = map(int,input().split())
 posi_dic = list(map(int,input().split()))
+
+row = posi_dic[0]
+column = posi_dic[1]
+dicrection = posi_dic[2]
+
 types = []
 
-count = 0
-while True:
-    for j in range(m):
-        types.append(list(map(int,input().split()))[j])
-        count = count + 1
-    if count == 4:
-        break
-
-print(types)
+for i in range(n):
+    types.append(list(map(int,input().split())))
 
 
 
-row_column_types = []
 
-for i in range (1,n+1):
-    for j in range (1,m+1):
-        row_column_types.append([i,j])
+
 
 
         
