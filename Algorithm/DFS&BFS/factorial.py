@@ -13,7 +13,7 @@ iterative(5)
 #재귀적 방법
 
 def recursive(n):
-    if n == 1:
+    if n == 1: #recursive(1) = 1
         return n
     result = n * recursive(n-1)
     return result
