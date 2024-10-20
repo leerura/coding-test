@@ -10,7 +10,7 @@ while n >= k :
     n = n //k
     count = count + 1
 
-while n < 1 :
+while n < k :
     n = n -1
     count = count + 1
 
