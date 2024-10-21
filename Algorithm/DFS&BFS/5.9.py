@@ -1,19 +1,22 @@
 #BFS 예제
 from collections import deque
 
-def bfs(graph,start,visited):
-    queue = deque([start])
-
+def bfs(graph, start, visited):
+    queue = deque()
+    queue.append(start)
+    print(start)
     visited[start] = True
 
     while queue:
         v = queue.popleft()
-        print(v,end='')
-
+        print(v)
         for i in graph[v]:
-            if not visited[i]:
-                queue.append(i)
+            if visited[i] == False:
                 visited[i] = True
+                queue.append(i)
+
+        
+
    
 
 graph = [
