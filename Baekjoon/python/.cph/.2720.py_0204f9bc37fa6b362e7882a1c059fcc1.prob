@@ -1,0 +1,1 @@
+{"name":"Local: 2720","url":"c:\\Users\\HTER\\Desktop\\Baek\\coding-test\\Baekjoon\\python\\2720.py","tests":[{"id":1734416158110,"input":"3\n124\n25\n194","output":"4 2 0 4\n1 0 0 0\n7 1 1 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HTER\\Desktop\\Baek\\coding-test\\Baekjoon\\python\\2720.py","group":"local","local":true}
